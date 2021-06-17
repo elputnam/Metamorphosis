@@ -28,7 +28,7 @@ function particle(x, y){
   this.loc = createVector(x, y);
   this.vel = createVector(0,0);
   this.ts = random(3,5);
-  this.H = random(360);
+  this.H = 0;
 
   this.display = function(){
     noStroke();
